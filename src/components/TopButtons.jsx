@@ -12,7 +12,7 @@ function TopButtons({ setQuery }) {
     },
     {
       id: 3,
-      title: "las vegas",
+      title: "los angeles",
     },
     {
       id: 4,
