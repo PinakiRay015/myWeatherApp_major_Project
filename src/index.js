@@ -5,3 +5,9 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
+
+let today = new Date();
+let td = document.getElementById('mydate');
+let year= today.getFullYear();
+
+td.innerHTML = year;
